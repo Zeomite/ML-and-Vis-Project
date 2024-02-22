@@ -3,7 +3,15 @@
 # Self-Harm and Substance Abuse Deaths Worldwide
 
 This repository contains Python code to analyze and visualize data on self-harm and substance abuse deaths worldwide. The dataset used in this analysis is sourced from Kaggle, specifically from the [Self-Harm and Substance Abuse Deaths Worldwide](https://www.kaggle.com/datasets/thomaseltonau/self-harm-and-substance-abuse-deaths-worldwide/data) dataset.
+Certainly! Here's a sample README you can use for your code:
 
+---
+
+## Requirements
+- Python 3.x
+- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, plotly
+
+---
 ## Data Cleaning
 
 The code begins by loading the dataset using pandas and performing initial data exploration:
@@ -29,4 +37,6 @@ Finally, the code demonstrates how to apply machine learning techniques to the d
 - Model optimization using techniques like grid search to find the best hyperparameters for Decision Tree and KNN models.
 - Feature importance analysis to understand which features contribute the most to the prediction.
 
-The analysis provided here offers insights into the patterns and factors associated with self-harm and substance abuse deaths worldwide.
+## Results
+The analysis provides insights into the distribution of self-harm and substance abuse deaths worldwide. Additionally, machine learning models were trained to predict the number of deaths based on different features, with performance metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R-squared.
+
